@@ -1,0 +1,17 @@
+# biblioteca_math.py
+import math
+import random
+
+# Calculando Raiz Quadrada com arredondamento para cima (ceil)
+num = int(input('Digite um número: '))
+raiz = math.sqrt(num)
+
+# Usando f-string (mais moderno que .format)
+print(f'A raiz de {num} é {raiz:.2f}')
+print(f'Arredondando para cima: {math.ceil(raiz)}')
+print(f'Arredondando para baixo: {math.floor(raiz)}')
+
+# Número aleatório
+num_rand = random.random() # Gera entre 0 e 1
+num_int = random.randint(1, 10) # Gera inteiro entre 1 e 10
+print(f'Aleatório real: {num_rand:.2f} | Aleatório inteiro: {num_int}')
