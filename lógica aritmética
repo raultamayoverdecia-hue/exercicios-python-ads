@@ -1,0 +1,18 @@
+# exercicios_aritmeticos.py
+
+# Ordem de Precedência: 1. () | 2. ** | 3. *, /, //, % | 4. +, -
+
+# Exemplo 1
+res1 = 5 + 3 * 2
+print(f"5 + 3 * 2 = {res1}") # Resultado: 11
+
+# Exemplo 2: Potência e Raiz
+print(f"9 ** 3 = {9**3}")      # 729
+print(f"pow(4, 3) = {pow(4, 3)}") # 64
+print(f"81 ** (1/2) = {81**(1/2)}") # 9.0 (Raiz quadrada)
+
+# Divisões e Resto
+n1 = 19
+n2 = 2
+print(f"{n1} // {n2} = {n1 // n2}") # Divisão inteira: 9
+print(f"{n1} % {n2} = {n1 % n2}")   # Resto (Módulo): 1
